@@ -47,9 +47,28 @@ Disadvantage. It has limited exposure.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
+1. Create a new repository. Go to github and click "+" and select new repository. Make it private or public. 
+
+2. Clone repository locally. 
+3. Make changes .
+4. Stage your changes. Add files to the staging area  
+5. Commit.
+
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
+Branch in Git allows developers to create  separate lines of development within a project enabling them to work on features and fix bugs and collaborate.
+1. Create branch.
+Developers can create branch using "(git branch <branch name>)".
+
+2. Switching branches. " (git checkout < branch name>)".
+
+3. Making changes. Developers can make commit on their branch without affecting their main branch.
+
+4. Merge. Once work is complete branches can be  branched into the main branch using "git merge < branch name> "
+
+
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
+
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 
